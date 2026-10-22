@@ -1,4 +1,4 @@
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://crosta.vercel.app";
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://crosta-smash.vercel.app";
 
 export const site = {
   name: "Crosta",
