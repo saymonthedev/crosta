@@ -37,13 +37,13 @@ export function Campaign() {
   return (
     <section id="campanha" aria-labelledby="campanha-titulo" className="relative overflow-hidden border-y-2 border-grafite bg-chapa text-grafite">
       <div className="grid md:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
-        <div className="px-5 py-12 sm:px-8 lg:py-16">
+        <div className="@container px-5 py-12 sm:px-8 lg:py-16">
           <p className="mono text-xs font-semibold">Campanha da semana · {campaign.daysLabel}</p>
           <h2 id="campanha-titulo" className="display mt-5 text-[clamp(3rem,9vw,6.5rem)] [font-stretch:62%]">
             {campaign.name}
           </h2>
           <div className="mt-6 flex flex-wrap items-end gap-x-6 gap-y-3">
-            <p className="display text-[clamp(4.5rem,13vw,8.5rem)] leading-[0.8] [font-stretch:120%]">
+            <p className="display text-[min(8.5rem,24cqw)] leading-[0.8] whitespace-nowrap [font-stretch:120%]">
               <span className="sr-only">Por </span>
               {formatBRL(campaign.promoPrice).replace(",00", "")}
             </p>
