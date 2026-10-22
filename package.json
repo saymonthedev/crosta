@@ -1,0 +1,34 @@
+{
+  "name": "crosta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto conceitual de portfólio: cardápio e pedido pelo WhatsApp para uma hamburgueria fictícia de smash burgers.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "test:e2e": "node tests/e2e.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "1.55.0",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "22.20.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
